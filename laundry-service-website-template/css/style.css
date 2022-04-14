@@ -9264,23 +9264,23 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #194376 !important;
+  color: #1a1042 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #0c1f37 !important;
+  color: #1a1042 !important;
 }
 
 .text-secondary {
-  color: #46C6CE !important;
+  color: #99ccff !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
-  color: #2a979e !important;
+  color: #99ccff !important;
 }
 
 .text-success {
-  color: #28a745 !important;
+  color: #99ccff !important;
 }
 
 a.text-success:hover, a.text-success:focus {
