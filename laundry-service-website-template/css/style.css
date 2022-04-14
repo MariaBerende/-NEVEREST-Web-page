@@ -6,34 +6,34 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  -blue: #007bff;
-  -indigo: #6610f2;
-  -purple: #6f42c1;
-  -pink: #e83e8c;
-  -red: #dc3545;
-  -orange: #fd7e14;
-  -yellow: #ffc107;
-  -green: #28a745;
-  -teal: #20c997;
-  -cyan: #17a2b8;
-  -white: #fff;
-  -gray: #6c757d;
-  -gray-dark: #343a40;
-  -primary: #194376;
-  -secondary: #46C6CE;
+  blue: #007bff;
+  indigo: #6610f2;
+  purple: #6f42c1;
+  pink: #e83e8c;
+  red: #dc3545;
+  orange: #fd7e14;
+  yellow: #ffc107;
+  green: #28a745;
+  teal: #20c997;
+  cyan: #17a2b8;
+  white: #fff;
+  gray: #6c757d;
+  gray-dark: #343a40;
+  primary: #194376;
+  secondary: #46C6CE;
   success: #28a745;
   info: #17a2b8;
   warning: #ffc107;
   danger: #dc3545;
   light: #F3F6FF;
-  -dark: #1A1A1A;
-  -breakpoint-xs: 0;
-  -breakpoint-sm: 576px;
-  -breakpoint-md: 768px;
-  -breakpoint-lg: 992px;
-  -breakpoint-xl: 1200px;
-  -font-family-sans-serif: "Open Sans", sans-serif;
-  -font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  dark: #1A1A1A;
+  breakpoint-xs: 0;
+  breakpoint-sm: 576px;
+  breakpoint-md: 768px;
+  breakpoint-lg: 992px;
+  breakpoint-xl: 1200px;
+  font-family-sans-serif: "Open Sans", sans-serif;
+  font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #1A1042;
+  color: #8346B5;
 }
 
 h1, .h1 {
@@ -554,7 +554,7 @@ mark,
 
 code {
   font-size: 87.5%;
-  color: #e83e8c;
+  color: #8346B5;
   word-wrap: break-word;
 }
 
@@ -566,7 +566,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
   color: #fff;
-  background-color: #212529;
+  background-color: #1A1042;
 }
 
 kbd kbd {
@@ -1080,7 +1080,7 @@ pre code {
   }
   .col-md-4 {
     flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    max-width: 33.33333%
   }
   .col-md-5 {
     flex: 0 0 41.66667%;
@@ -2476,8 +2476,8 @@ fieldset:disabled a.btn {
 
 .btn-info {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #99ccff;
+  border-color: #99CCFF;
 }
 
 .btn-info:hover {
@@ -2495,8 +2495,8 @@ fieldset:disabled a.btn {
 
 .btn-info.disabled, .btn-info:disabled {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #99ccff;
+  border-color: #99ccff;
 }
 
 .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
@@ -2756,14 +2756,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info {
-  color: #17a2b8;
-  border-color: #17a2b8;
+  color: #99ccff;
+  border-color: #99ccff;
 }
 
 .btn-outline-info:hover {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #99ccff;
+  border-color: #99ccff;
 }
 
 .btn-outline-info:focus, .btn-outline-info.focus {
@@ -2771,15 +2771,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-info.disabled, .btn-outline-info:disabled {
-  color: #17a2b8;
+  color: #99CCFF;
   background-color: transparent;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
 .show > .btn-outline-info.dropdown-toggle {
   color: #fff;
-  background-color: #17a2b8;
-  border-color: #17a2b8;
+  background-color: #99CCFF;
+  border-color: #99CCFF;
 }
 
 .btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
@@ -4715,12 +4715,12 @@ a.badge-success:focus, a.badge-success.focus {
 
 .badge-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #99CCFF;
 }
 
 a.badge-info:hover, a.badge-info:focus {
   color: #fff;
-  background-color: #117a8b;
+  background-color: #99CCFF;
 }
 
 a.badge-info:focus, a.badge-info.focus {
@@ -5668,7 +5668,7 @@ a.close.disabled {
 .tooltip-inner {
   max-width: 200px;
   padding: 0.25rem 0.5rem;
-  color: #fff;
+  color: #8346B5;
   text-align: center;
   background-color: #000;
 }
@@ -6124,13 +6124,13 @@ button.bg-success:focus {
 }
 
 .bg-info {
-  background-color: #17a2b8 !important;
+  background-color: #99CCFF !important;
 }
 
 a.bg-info:hover, a.bg-info:focus,
 button.bg-info:hover,
 button.bg-info:focus {
-  background-color: #117a8b !important;
+  background-color: #99CCFF !important;
 }
 
 .bg-warning {
@@ -6234,7 +6234,7 @@ button.bg-dark:focus {
 }
 
 .border-info {
-  border-color: #17a2b8 !important;
+  border-color: #99CCFF !important;
 }
 
 .border-warning {
@@ -9288,7 +9288,7 @@ a.text-success:hover, a.text-success:focus {
 }
 
 .text-info {
-  color: #17a2b8 !important;
+  color: #99CCFF !important;
 }
 
 a.text-info:hover, a.text-info:focus {
@@ -9563,11 +9563,43 @@ h6,
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #46C6CE;
+  background: #8346b5;
 }
 
 .contact-form .help-block ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+body {
+    background: #ffff
+}
+
+.name {
+    color: purple
+}
+
+.work {
+    font-weight: bold;
+    font-size: 15px
+}
+
+.about span {
+    font-size: 13px
+}
+
+.v-profile {
+    color: blue;
+    cursor: pointer
+}
+
+.box {
+    -webkit-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+    -moz-box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72);
+    box-shadow: 13px 12px 5px -10px rgba(196, 194, 196, 0.72)
+}
+
+.col-md-3 {
+    margin-top: 10px
 }
